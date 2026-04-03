@@ -2,8 +2,6 @@
 node_modules/
 
 # environment variables
-.env
-.env.local
 
 # logs
 logs/
@@ -19,5 +17,8 @@ build/
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
