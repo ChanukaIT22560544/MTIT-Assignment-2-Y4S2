@@ -13,6 +13,7 @@ const swaggerSpec = swaggerJsdoc({
   apis: ['./index.js'],
 });
 
+
 app.get('/api-docs.json', (req, res) => res.json(swaggerSpec));
 app.use(
   '/api-docs',
